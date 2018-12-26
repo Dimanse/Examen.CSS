@@ -1,0 +1,290 @@
+body{
+   font-family: 'Dancing Script OT', arial;
+   background-color: #02010a;
+}
+
+
+.cabecera{
+  background-color: #5b7989;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  border-radius: 10px 10px 0px 0px;
+-moz-border-radius: 10px 10px 0px 0px;
+-webkit-border-radius: 10px 10px 0px 0px;
+}
+
+.cabecera h1{
+  width: 100%;
+  font-size: 40px;
+  color: white;
+  text-shadow: 1px 2px #02010a;
+  margin-left: 30px;
+}
+
+
+ .cabecera ul {
+   display: flex;
+  list-style: none;
+	}
+
+
+.cabecera ul li {
+	display: flex;
+	line-height: 40px;
+
+
+}
+
+.cabecera ul li a {
+  font-size: 20px;
+	display: flex;
+  padding: 10px;
+	text-decoration: none;
+  text-align: right;
+  margin-right: 20px;
+}
+
+
+a .active{
+  color: red;
+}
+
+#contenido {
+display: block;
+
+}
+
+.contenedor {
+	display: flex;
+	flex-direction: row;
+  width: 100%;
+  background-color: #d5c75f;
+  border: 1px;
+
+}
+
+
+.contenedor > div {
+	text-align: center;
+	padding: 10px;
+
+	width: 32%;
+
+}
+
+
+img {
+	border: 2px solid white;
+	width: 350px;
+  height: 300px;
+}
+
+.image1{
+  -webkit-filter: blur(10px);
+  filter: blur(10px);
+}
+
+.image2{
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.image3{
+  -webkit-filter: sepia(90%);
+  filter:sepia(90%);
+}
+
+.image4{
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+
+
+.image6{
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+
+
+  footer {
+    background-color: #C6d5c5;
+    border-radius: 0px 0px 10px 10px;
+    -moz-border-radius: 0px 0px 10px 10px;
+    -webkit-border-radius: 0px 0px 10px 10px;
+
+  }
+
+  .content {
+    display: flex;
+  	flex-direction: row;
+    width: 100%;
+  }
+
+  .content > div{
+    text-align: center;
+  	padding: 10px;
+  	margin: 10px;
+  	width: 50%;
+  }
+
+  .facebook img {
+  	width: 25px;
+    height: 25px;
+  }
+
+  .twitter img{
+    width: 25px;
+    height: 25px;
+  }
+
+  .instagram img{
+    width: 25px;
+    height: 25px;
+  }
+
+  .facebook{
+    display: flex;
+  	line-height: 2px;
+    padding-left: 30px;
+  }
+
+  p{
+    font-size: 20px;
+    margin-left: 10px;
+  }
+
+  .twitter{
+    display: flex;
+  	line-height: 0px;
+    padding-left: 30px;
+  }
+
+  .instagram{
+    display: flex;
+  	line-height: 2px;
+    padding-left: 30px;
+  }
+
+  .copyright img{
+    width: 25px;
+    height: 25px;
+  }
+
+  .copyright{
+    display: flex;
+  	line-height: 2px;
+    padding-left: 50px;
+  }
+
+  @media screen and (min-width:420px) and (max-width:900px){
+   .cabecera{
+     width: 100%;
+     display: block;
+   }
+
+   .cabecera h1{
+     font-size: 30px;
+     text-align: center;
+     margin-left: 0;
+     padding-top: 20px;
+
+   }
+   .cabecera ul li{
+     line-height: 0;
+
+   }
+   .cabecera ul li a{
+     font-size: 20px;
+     text-align: center;
+     margin-left: 30px;
+
+   }
+
+
+
+   .contenedor > div {
+   	text-align: center;
+   	padding: 10px;
+
+   	width: 100%;
+  }
+
+   #contenido{
+     display: block;
+   }
+
+   .contenedor{
+     display: block;
+
+   }
+
+   .contenedor > div {
+    text-align: center;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    padding-top: 10px;
+  }
+
+   .content{
+     display: flex;
+     flex-direction: column;
+
+   }
+
+   .content > div{
+     text-align: center;
+   	padding: 10px;
+   	margin: 10px;
+   	width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+   }
+
+   .facebook img {
+   	width: 25px;
+     height: 25px;
+   }
+
+   .twitter img{
+     width: 25px;
+     height: 25px;
+   }
+
+   .instagram img{
+     width: 25px;
+     height: 25px;
+   }
+
+   .copyright img{
+     width: 25px;
+     height: 25px;
+   }
+
+   .facebook{
+     display: flex;
+   	line-height: 2px;
+     padding-left: 130px;
+   }
+
+   .twitter{
+     display: flex;
+   	line-height: 0px;
+     padding-left: 130px;
+   }
+
+   .instagram{
+     display: flex;
+   	line-height: 2px;
+     padding-left: 130px;
+   }
+
+   .copyright{
+     display: flex;
+   	line-height: 2px;
+     padding-left: 150px;
+   }
